@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Flex</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>    
+    <header> 
+        <h1>Calculadora Flex</h1>
+    </header>
+    <section>
+        <div id="corpo">
+            
+            <img src="neutro.png" alt="Calculadora Flex" id="status"/>
+            <!--Formulario-->
+            <form name="formtxt">
+                <input type="text" name="txte" placeholder="Etanol R$" size="8"/>
+                <input type="text" placeholder="gasolina R$" size="8" name="txtg"/>
+                <input type="button" value="Vantagem" onclick="calcular()"/>
+                <input type="reset" value="Limpar" id="btl" onclick="limpar()"/>
+            </form>
+
+        </div>
+            
+    </section>
+    <footer>
+        <p>Joadson Rocha &copy;</p>
+    </footer>
+<script src="javascript.js"></script>
+</body>
+</html>
